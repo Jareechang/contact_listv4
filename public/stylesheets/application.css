@@ -1,0 +1,68 @@
+.input-group {
+
+  position:relative;
+  bottom:40px;
+
+}
+
+ .submit {
+margin-top: 10px;
+
+ }
+
+ .contact-div {
+  height:90%;
+
+ }
+
+.contact-form {
+  top:100px;
+  left:250px;
+ padding: 100px;
+ position:relative;
+
+ margin-left:auto;
+ margin-right:auto;
+ width: 43%;
+ height:350px;
+  background-color:rgba(86, 106, 134, 0.8)
+
+
+ 
+
+}
+#basic-addon1{
+padding-right:40px;
+} 
+
+.button-manage {
+
+ left:55%;
+ position:relative;
+
+}
+
+.contact-list{
+  position:relative;
+  left:5em;
+  bottom:500px;
+ background-color:rgba(86, 106, 134, 0.8);
+
+
+}
+.contact-list th,td {
+
+padding:15px;
+
+
+
+}
+
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+

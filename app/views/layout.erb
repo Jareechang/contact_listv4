@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
+ <header> 
+
+  
+   <div class= "margin-b2 button-manage">
+<p class="col-1of7 button margin-t2 margin-r1 margin-l2 txt-center show"> show contact </p>
+  <p class="col-1of7 button txt-center margin-t2 margin-r1 add"> add contact </p>
+ 
+
+  </div>
+
+
+</header>
 <head>
   <!--
     normalize.css removes cross-browser differences in defaults, e.g.,
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
   -->
+
+
   <link rel="stylesheet" href="/stylesheets/normalize.css">
   <!--
     application.css is where you put your styles
   -->
   <link rel="stylesheet" href="/stylesheets/application.css">
+    <link rel="stylesheet" href="/stylesheets/yansframework.css">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="/javascript/application.js"></script>
 
   <title></title>
+
+ 
 </head>
 <body>
+
   <%= yield %>
+
+
+<table class="contact-list round  white-txt txt-center">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>phonenumber</th>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+    <td><b><a class="margin-r1" href="#">εdit</a><a href="http://www.google.com">x</b></a></td>
+  </tr>
+</table>
+
 </body>
+
+
 </html>
